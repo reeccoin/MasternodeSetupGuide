@@ -1,15 +1,15 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='sovranocoin.conf'
-CONFIGFOLDER='/root/.sovranocoin'
-COIN_DAEMON='sovranocoind'
-COIN_CLI='sovranocoin-cli'
+CONFIG_FILE='reeccoin.conf'
+CONFIGFOLDER='/root/.reeccoin'
+COIN_DAEMON='reeccoind'
+COIN_CLI='reeccoin-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/reeccoin/REEC/releases/download/v1.0.0/reeccoin-1.0.0-Ubuntu20.04-daemon.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='sovranocoind'
-COIN_EXPLORER='https://block.sovranocoin.com'
+COIN_NAME='reeccoind'
+COIN_EXPLORER='https://explorer.reec.io/'
 COIN_PORT=62446
 RPC_PORT=62447
 
