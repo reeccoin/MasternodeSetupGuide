@@ -10,8 +10,8 @@ COIN_TGZ='https://github.com/SovranoCoin/sovranocoin/releases/download/v3.1.0/So
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='sovranocoind'
 COIN_EXPLORER='https://block.sovranocoin.com'
-COIN_PORT=6610
-RPC_PORT=6611
+COIN_PORT=62446
+RPC_PORT=62447
 
 NODEIP=$(curl -s4 icanhazip.com)
 
